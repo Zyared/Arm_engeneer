@@ -1,0 +1,6 @@
+﻿body {
+    position: relative;
+    background: url('../../../resurs/photo/fon2.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 856px;
+}

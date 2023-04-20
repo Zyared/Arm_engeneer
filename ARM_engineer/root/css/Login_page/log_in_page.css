@@ -1,0 +1,132 @@
+﻿body {
+    position: relative;
+    background: url('../../../resurs/photo/fon.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 856px;
+    
+}
+
+/*Кнопка начать работу*/
+.button {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: 42.71%;
+    top: 45%;
+    transform: translate(-42,71%, -45%);
+    transition: transform 0.6s ease-in-out;
+    
+}
+.button-style {
+    position: absolute;
+    width: 280px;
+    height: 60px;
+    left: calc(50% - 280px/2);
+    top: calc(50% - 60px/2);
+    background: linear-gradient(90deg, #C82621 0%, #4C4B50 100%);
+    border-radius: 36px;
+    text-decoration: none;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.4);
+    transition: box-shadow 0.5s ease-in-out;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 55px;
+    align-items: center;
+    text-align: center;
+    color: #E6E4E5;
+}
+.button-style:hover {
+    box-shadow: 0px 8px 7px rgba(0,0,0,0.6);
+    width: 285px;
+    height: 65px;
+    left: calc(50% - 285px/2);
+    top: calc(50% - 65px/2);
+    line-height: 58px;
+    }
+
+
+
+/*Текст вверху страницы*/
+.text1 {
+    left: 31.43%;
+    right: 30.6%;
+    top: 2.95%;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    background: linear-gradient(92.51deg, #27282C 0%, #CF261F 98.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transform: translate(-42,71%, -45%);
+    transition: transform 1s ease-in-out;
+}
+
+/*Блок с текстом справа внизу*/
+.info {
+    box-sizing: border-box;
+    position: absolute;
+    left: 71.91%;
+    right: -0.4%;
+    top: 70.2%;
+    bottom: -3.3%;
+    background: linear-gradient(219.8deg, #121013 26.3%, #44454A 98.7%);
+    transform: translate(-42,71%, -45%);
+    transition: transform 1s ease-in-out;
+}
+.info-img {
+    position: absolute;
+    left: 35%;
+    right: 0%;
+    top: 5%;
+    transform: translate(-42,71%, -45%);
+    transition: transform 1s ease-in-out;
+}
+.info-text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 10%;
+    bottom: 0%;
+    font-family: 'Exo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(113.34deg, #E2E2E2 -0.51%, #7B797E 86.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transform: translate(-42,71%, -45%);
+    transition: transform 1s ease-in-out;
+}
+
+/*Спрятать элементы*/
+.button.hide {
+    transform: translate(-401%, -45%);
+}
+.info.hide {
+    transform: translate(-0%, -450%);
+}
+info-img.hide {
+    transform: translate(-0%, -450%);
+}
+.info-text.hide {
+    transform: translate(-0%, -450%);
+}
+.text1.hide {
+    transform: translate(-0%, -450%);
+}
+
+
+
